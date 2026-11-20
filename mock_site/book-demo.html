@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book Demo with DaveAI</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; padding: 20px; }
+    header { border-bottom: 1px solid #ccc; padding-bottom: 15px; }
+    form { max-width: 500px; margin-top: 30px; display: flex; flex-direction: column; gap: 15px; }
+    input, textarea { padding: 10px; font-size: 14px; border: 1px solid #ccc; border-radius: 4px; }
+    button { background: #0066cc; color: white; padding: 12px; font-size: 16px; border: none; border-radius: 4px; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="/"><img src="https://www.iamdave.ai/wp-content/uploads/2025/09/DaveAI_Logo.svg" alt="DaveAI Logo" width="160" /></a>
+  </header>
+  <main>
+    <h1>Book Demo with DaveAI</h1>
+    <p>Experience the next generation of generative AI agents.</p>
+    <form id="demo-form" action="#" method="POST" onsubmit="event.preventDefault();">
+      <input type="text" name="form_fields[name_free_audit]" placeholder="Name" required />
+      <input type="email" name="form_fields[email]" placeholder="Work Email" required />
+      <input type="text" name="form_fields[field_93bc8cc]" placeholder="Company name" required />
+      <input type="tel" name="form_fields[field_597bd0b]" placeholder="Phone number" required />
+      <textarea name="form_fields[message]" placeholder="What can we help you with?" rows="4"></textarea>
+      <button type="submit" class="elementor-button">Schedule Demo</button>
+    </form>
+  </main>
+</body>
+</html>
